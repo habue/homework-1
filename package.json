@@ -1,0 +1,20 @@
+{
+  "name": "load-external-modules",
+  "version": "1.0.0",
+  "description": "Load own and external modules to the project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --inspect-brk app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habue/homework-1.git"
+  },
+  "author": "nikita_k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habue/homework-1/issues"
+  },
+  "homepage": "https://github.com/habue/homework-1#readme"
+}
