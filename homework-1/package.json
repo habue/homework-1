@@ -1,0 +1,30 @@
+{
+  "name": "load-external-modules",
+  "version": "1.0.0",
+  "description": "Load own and external modules to the project",
+  "main": "app.js",
+  "scripts": {
+    "start:green": "node app.js color=greenBright",
+    "start:cpu": "node app.js COLOR=red --cpu",
+    "start:lan": "node app.js COLOR=blue --lan",
+    "start:ram": "node app.js COLOR=cyan --ram",
+    "start:full-info": "node app.js COLOR=blueBright --full-info",
+    "start:os-name": "node app.js COLOR=magentaBright --os-name",
+    "debug": "node --inspect-brk app.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "yargs": "^16.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habue/homework-1.git"
+  },
+  "author": "nikita_k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habue/homework-1/issues"
+  },
+  "homepage": "https://github.com/habue/homework-1#readme"
+}
