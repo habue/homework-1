@@ -10,11 +10,11 @@ const regExp = '.*?\.json';
 const FinderInst = new Finder(targetFolder, searchDeep, regExp);
 
 FinderInst.once(events.INIT, () => {
-    FinderInst.parse();
+  FinderInst.parse();
 });
 
 FinderInst.on(events.FIND, (path) => {
-  // console.log('Find', path)
+  console.log('Find', path)
 });
 
 FinderInst.once(events.COMPLETE, (data) => {
